@@ -17,7 +17,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/customers/{customerId}/memos")
 @RequiredArgsConstructor
-public class MemoController {
+public class MemoController implements MemoApi {
 
     private final MemoService memoService;
 

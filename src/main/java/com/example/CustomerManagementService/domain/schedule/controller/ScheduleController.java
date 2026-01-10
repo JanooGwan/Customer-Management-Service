@@ -20,7 +20,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/schedules")
 @RequiredArgsConstructor
-public class ScheduleController {
+public class ScheduleController implements ScheduleApi {
 
     private final ScheduleService scheduleService;
 
